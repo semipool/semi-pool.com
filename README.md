@@ -52,7 +52,29 @@ minerd260.exe -a yescrypt -o stratum+tcp://zny.semi-pool.com:7777 -u ZyWJL5qp3qZ
 ```
 
 ### MacOS
-현재 (2018-07-17) 기준 맥용 바이너리가 공개되지 않았지만 가능하다. 추후 추가예정.
+현재 (2018-07-17) 기준 맥용 바이너리가 공개되지 않았지만 직접 컴파일이 가능하다.
+다음을 참고: https://medium.com/@cryptozeny/macos-%EC%97%90%EC%84%9C-bitzeny-%EC%B1%84%EA%B5%B4%ED%95%98%EA%B8%B0-ad4267e860aa
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew tap bitzenycoredevelopers/bitzeny
+
+brew install cpuminer-macchky
+```
+
+저사양 디바이스: 라즈베리파이, 구형컴퓨터, 스마트폰
+```bash
+/usr/local/Cellar/cpuminer-macchky/2.6.0/bin/minerd -o stratum+tcp://zny.semi-pool.com:3333 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+```
+일반적인 PC: 라이젠, 인텔
+```bash
+/usr/local/Cellar/cpuminer-macchky/2.6.0/bin/minerd -o stratum+tcp://zny.semi-pool.com:5555 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+```
+고성능 클라우드: GPU 4way 이상 혹은 48코어 이상
+```bash
+/usr/local/Cellar/cpuminer-macchky/2.6.0/bin/minerd -o stratum+tcp://zny.semi-pool.com:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+```
 
 ## GPU 마이닝
 ccminer를 KlausT가 개조한 버젼에 BitZeny를 채굴하는 코드가 추가된 버젼이 공개되었다.
@@ -123,4 +145,4 @@ cd ccminer-KlausT-8.21-mod-r6/ && \
 ### MacOS
 아직 시도해보지 않았다. 추후 추가예정
 
-# 끝
+끝
