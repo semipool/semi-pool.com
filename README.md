@@ -1,4 +1,4 @@
-# 세미풀 마이닝 가이드
+# 세미풀 마이닝 매뉴얼
 
 https://zny.semi-pool.com/
 
@@ -130,7 +130,7 @@ sudo ldconfig && \
 sudo bash -c "echo /usr/local/cuda/bin > /etc/environments" && \
 sudo ldconfig && \
 \
-# cuballoon install \
+# ccminer install \
 sudo apt-get install \
 build-essential autoconf automake libssl-dev libcurl4-openssl-dev libjansson-dev zlib1g-dev screen git && \
 cd && \
