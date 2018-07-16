@@ -22,6 +22,9 @@ https://github.com/cryptozeny/cpuminer-kawaii
 현재 (2018-07-17) 기준 세미풀에서 추천하는 것은 `cpuminer-macchky-2.6`이다.
 https://github.com/macchky/cpuminer
 
+벤치마크는 다음을 참고:
+https://github.com/cryptozeny/cpuminer-kawaii/wiki/bitzeny-cpuminer-benchmark
+
 ## CPUMINER 다운로드
 v.2.6.0 버젼이 현재 (2018-07-17) 기준 최신버젼이다. `ZNYminer260.zip`를 다운받는다.
 https://github.com/macchky/cpuminer/releases
