@@ -1,6 +1,9 @@
 # 세미풀 마이닝 가이드
 BitZeny는 CPU 마이닝에 최적화된 `yescrypt`를 채용한 일본 최초의 CPU 코인이다. 2018년 이후 GPU 마이닝이 가능하게 되었지만 효율은 `1 : 0.9` 수준으로 CPU가 약 10% 가량 빠르며 전기세도 더 저렴하다.
 
+자세한 사항은 다음을 참고:
+https://www.alphawiki.org/w/%EB%B9%84%ED%8A%B8%EC%A0%9C%EB%8B%88
+
 ## CPU 마이닝
 BitZeny의 CPU 마이너에는 총 4가지가 있다.
 
