@@ -12,22 +12,22 @@ https://www.alphawiki.org/w/%EB%B9%84%ED%8A%B8%EC%A0%9C%EB%8B%88
 ## 목차
 
  * CPU 마이닝 (Ryzen 추천)
-  * 다운로드
-  * 실행
-    * Windows
-    * Linux
-    * MacOS
- * GPU 마이닝 (NVIDIA 추천)
-  * 다운로드
-  * 실행
-    * Windows
-    * Linux
-    * MacOS (아직 테스트 못함)
+    * 다운로드
+    * 실행
+      * Windows
+      * Linux
+      * MacOS
+ * GPU 마이닝 (NVIDIA gtx10xx 추천)
+    * 다운로드
+    * 실행
+      * Windows
+      * Linux
+      * MacOS (아직 테스트 못함)
  * Smartphone 마이닝
-  * 다운로드
-  * 실행
-    * Android (KitKat 이상)
-    * iPhone (애플이 허가를 안해줘서 불가능)
+    * 다운로드
+    * 실행
+      * Android (KitKat 이상)
+      * iPhone (애플이 허가를 안해줘서 불가능)
 
 ***
 
@@ -134,7 +134,7 @@ ccminer.exe -a yescryptr8 -o stratum+tcp://zny.semi-pool.com:7777 -u ZyWJL5qp3qZ
 ```
 
 ### Linux
-직접 컴파일을 해야하며 `nvidia-396` 및 `cuda-9.2`가 필요하다.
+직접 컴파일을 해야하며 `nvidia-396` 및 `cuda-9.2`가 필요하다. gtx1080에서 12 kH/s 를 기록.
 ```bash
 # nvidia-396 \
 sudo add-apt-repository ppa:graphics-drivers/ppa && \
@@ -194,11 +194,11 @@ https://github.com/OttyLab/BitZenyAndroidMiningLibrary/releases
 
 1. 스트라툼 주소 및 포트번호
 
-  stratum+tcp://zny.semi-pool.com:3333
+  `stratum+tcp://zny.semi-pool.com:3333`
 
-2. 지갑주소
+2. 지갑주소 (본인의 주소를 적는다)
 
-  ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+  `ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v`
 
 3. 패스워드는 없으므로 `x`라고 입력
 
