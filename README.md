@@ -1,4 +1,4 @@
-# 세미풀 마이닝 매뉴얼
+# SEMI-POOL MINING MANUAL
 
 https://zny.semi-pool.com/
 
@@ -6,6 +6,30 @@ BitZeny는 CPU 마이닝에 최적화된 `yescrypt`를 채용한 일본 최초�
 
 자세한 사항은 다음을 참고:
 https://www.alphawiki.org/w/%EB%B9%84%ED%8A%B8%EC%A0%9C%EB%8B%88
+
+***
+
+## 목차
+
+ * CPU 마이닝 (Ryzen 추천)
+  * 다운로드
+  * 실행
+    * Windows
+    * Linux
+    * MacOS
+ * GPU 마이닝 (NVIDIA 추천)
+  * 다운로드
+  * 실행
+    * Windows
+    * Linux
+    * MacOS (아직 테스트 못함)
+ * Smartphone 마이닝
+  * 다운로드
+  * 실행
+    * Android (KitKat 이상)
+    * iPhone (애플이 허가를 안해줘서 불가능)
+
+***
 
 ## CPU 마이닝
 BitZeny의 CPU 마이너에는 총 4가지가 있다.
@@ -85,6 +109,8 @@ brew install cpuminer-macchky
 /usr/local/Cellar/cpuminer-macchky/2.6.0/bin/minerd -o stratum+tcp://zny.semi-pool.com:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 
+***
+
 ## GPU 마이닝
 ccminer를 KlausT가 개조한 버젼에 BitZeny를 채굴하는 코드가 추가된 버젼이 공개되었다.
 
@@ -154,4 +180,33 @@ cd ccminer-KlausT-8.21-mod-r6/ && \
 ### MacOS
 아직 시도해보지 않았다. 추후 추가예정
 
-끝
+***
+
+## Smartphone 마이닝
+스마트폰 채굴이 가능하다. 방법은 여러가지가 있지만 전용 앱을 쓰는것을 추천한다.
+
+### 다운로드
+스마트폰에서 `apk` 파일을 다운받는다.
+https://github.com/OttyLab/BitZenyAndroidMiningLibrary/releases
+
+### 실행
+각 항목을 입력한다.
+
+1. 스트라툼 주소 및 포트번호
+
+  stratum+tcp://zny.semi-pool.com:3333
+
+2. 지갑주소
+
+  ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+
+3. 패스워드는 없으므로 `x`라고 입력
+
+  `x`
+
+4. 스레드 갯수는 적절히 설정. 모르겠으면 `0`을 입력한다. 자동으로 모든코어 사용. 너무 과도하다 싶으면 조금씩 내려본다.
+
+  `0`
+
+
+# 끝
