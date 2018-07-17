@@ -192,21 +192,17 @@ https://github.com/OttyLab/BitZenyAndroidMiningLibrary/releases
 ### 실행
 각 항목을 입력한다.
 
-1. 스트라툼 주소 및 포트번호
+1. 스트라툼 주소 및 포트번호  
+    `stratum+tcp://zny.semi-pool.com:3333`
 
-  `stratum+tcp://zny.semi-pool.com:3333`
+2. 지갑주소 (본인의 주소를 적는다)  
+    `ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v`
 
-2. 지갑주소 (본인의 주소를 적는다)
+3. 패스워드는 없으므로 `x`라고 입력  
+    `x`
 
-  `ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v`
-
-3. 패스워드는 없으므로 `x`라고 입력
-
-  `x`
-
-4. 스레드 갯수는 적절히 설정. 모르겠으면 `0`을 입력한다. 자동으로 모든코어 사용. 너무 과도하다 싶으면 조금씩 내려본다.
-
-  `0`
+4. 스레드 갯수는 적절히 설정. 모르겠으면 숫자 `0`을 입력한다. 자동으로 모든코어 사용. 너무 과도하다 싶으면 조금씩 내려본다.  
+    `0`
 
 ### 스크린샷
 갤럭시 노트8 에서 0.14 kH/s 기록
