@@ -208,5 +208,9 @@ https://github.com/OttyLab/BitZenyAndroidMiningLibrary/releases
 
   `0`
 
+### 스크린샷
+갤럭시 노트8 에서 0.14 kH/s 기록
+
+![alt text](https://pbs.twimg.com/media/DiR4UzAU0AEIKyT.jpg)
 
 # 끝
