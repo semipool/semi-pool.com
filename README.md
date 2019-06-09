@@ -1,6 +1,6 @@
 # SEMI-POOL MINING MANUAL
 
-https://zny.semi-pool.com/
+https://zny.semipool.net/
 
 BitZeny는 CPU 마이닝에 최적화된 `yescrypt`를 채용한 일본 최초의 CPU 코인이다. 2018년 이후 GPU 마이닝이 가능하게 되었지만 효율은 `1 : 0.9` 수준으로 CPU가 약 10% 가량 빠르며 전기세도 더 저렴하다.
 
@@ -59,29 +59,29 @@ https://github.com/macchky/cpuminer/releases
 ### Windows
 저사양 디바이스: 라즈베리파이, 구형컴퓨터, 스마트폰
 ```bash
-minerd260.exe -a yescrypt -o stratum+tcp://zny.semi-pool.com:3333 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+minerd260.exe -a yescrypt -o stratum+tcp://zny.semipool.net:3333 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 일반적인 PC: 라이젠, 인텔
 ```bash
-minerd260.exe -a yescrypt -o stratum+tcp://zny.semi-pool.com:5555 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+minerd260.exe -a yescrypt -o stratum+tcp://zny.semipool.net:5555 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 고성능 클라우드: GPU 4way 이상 혹은 48코어 이상
 ```bash
-minerd260.exe -a yescrypt -o stratum+tcp://zny.semi-pool.com:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+minerd260.exe -a yescrypt -o stratum+tcp://zny.semipool.net:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 
 ### Linux
 저사양 디바이스: 라즈베리파이, 구형컴퓨터, 스마트폰
 ```bash
-./linux/minerd -a yescrypt -o stratum+tcp://zny.semi-pool.com:3333 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+./linux/minerd -a yescrypt -o stratum+tcp://zny.semipool.net:3333 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 일반적인 PC: 라이젠, 인텔
 ```bash
-./linux/minerd -a yescrypt -o stratum+tcp://zny.semi-pool.com:5555 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+./linux/minerd -a yescrypt -o stratum+tcp://zny.semipool.net:5555 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 고성능 클라우드: GPU 4way 이상 혹은 48코어 이상
 ```bash
-./linux/minerd -a yescrypt -o stratum+tcp://zny.semi-pool.com:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+./linux/minerd -a yescrypt -o stratum+tcp://zny.semipool.net:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 
 ### MacOS
@@ -98,15 +98,15 @@ brew install cpuminer-macchky
 
 저사양 디바이스: 라즈베리파이, 구형컴퓨터, 스마트폰
 ```bash
-/usr/local/Cellar/cpuminer-macchky/2.6.0/bin/minerd -o stratum+tcp://zny.semi-pool.com:3333 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+/usr/local/Cellar/cpuminer-macchky/2.6.0/bin/minerd -o stratum+tcp://zny.semipool.net:3333 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 일반적인 PC: 라이젠, 인텔
 ```bash
-/usr/local/Cellar/cpuminer-macchky/2.6.0/bin/minerd -o stratum+tcp://zny.semi-pool.com:5555 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+/usr/local/Cellar/cpuminer-macchky/2.6.0/bin/minerd -o stratum+tcp://zny.semipool.net:5555 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 고성능 클라우드: GPU 4way 이상 혹은 48코어 이상
 ```bash
-/usr/local/Cellar/cpuminer-macchky/2.6.0/bin/minerd -o stratum+tcp://zny.semi-pool.com:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+/usr/local/Cellar/cpuminer-macchky/2.6.0/bin/minerd -o stratum+tcp://zny.semipool.net:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 
 ***
@@ -126,11 +126,11 @@ https://1drv.ms/u/s!Aud1FauQ46vHh1B5NYbLOB2bQlOt
 ### Windows
 1way: gtx1060/70/80/Ti
 ```bash
-ccminer.exe -a yescryptr8 -o stratum+tcp://zny.semi-pool.com:5555 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+ccminer.exe -a yescryptr8 -o stratum+tcp://zny.semipool.net:5555 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 3way 이상
 ```bash
-ccminer.exe -a yescryptr8 -o stratum+tcp://zny.semi-pool.com:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+ccminer.exe -a yescryptr8 -o stratum+tcp://zny.semipool.net:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 
 ### Linux
@@ -161,7 +161,7 @@ sudo apt-get install \
 build-essential autoconf automake libssl-dev libcurl4-openssl-dev libjansson-dev zlib1g-dev screen git && \
 cd && \
 sudo apt-get install wget unzip && \
-wget https://github.com/semipool/semi-pool.com/raw/master/ccminer-KlausT-8.21-mod-r6-src.zip && \
+wget https://github.com/semipool/semipool.net/raw/master/ccminer-KlausT-8.21-mod-r6-src.zip && \
 unzip ccminer-KlausT-8.21-mod-r6-src.zip -d ./ && \
 cd ccminer-KlausT-8.21-mod-r6/ && \
 ./autogen.sh && \
@@ -170,11 +170,11 @@ cd ccminer-KlausT-8.21-mod-r6/ && \
 
 1way: gtx1060/70/80/Ti
 ```bash
-./ccminer -a yescryptr8 -o stratum+tcp://zny.semi-pool.com:5555 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+./ccminer -a yescryptr8 -o stratum+tcp://zny.semipool.net:5555 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 3way 이상
 ```bash
-./ccminer -a yescryptr8 -o stratum+tcp://zny.semi-pool.com:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
+./ccminer -a yescryptr8 -o stratum+tcp://zny.semipool.net:7777 -u ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v
 ```
 
 ### MacOS
@@ -193,7 +193,7 @@ https://github.com/OttyLab/BitZenyAndroidMiningLibrary/releases
 각 항목을 입력한다.
 
 1. 스트라툼 주소 및 포트번호  
-    `stratum+tcp://zny.semi-pool.com:3333`
+    `stratum+tcp://zny.semipool.net:3333`
 
 2. 지갑주소 (본인의 주소를 적는다)  
     `ZyWJL5qp3qZQW85HVoT3ba2feJYsZ7aQ2v`
